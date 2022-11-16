@@ -1,5 +1,4 @@
 .landing-page-container {
-  margin: 0 auto;
   min-height: 100vh;
   width: 100vw;
 
@@ -14,8 +13,9 @@
 }
 
 .landing-page-header {
-  font-size: 1rem;
-  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  margin-bottom: 1rem;
 }
 
 .product-list {
@@ -32,5 +32,31 @@
 }
 
 .product-list li {
-  padding: 0.2rem 0 0.8rem 0rem;
+  padding: 0.2rem 10px 0.8rem 10px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .navbar {
+    margin: 0 387px;
+  }
+}
+@media only screen and (max-width: 1420px) {
+  .navbar {
+    margin: 0 187px;
+  }
+}
+@media only screen and (max-width: 1145px) {
+  .navbar {
+    margin: 0 100px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .navbar {
+    margin: 0 45px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .navbar {
+    margin: 0 25px;
+  }
 }
