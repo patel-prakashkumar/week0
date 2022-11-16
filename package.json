@@ -35,6 +35,7 @@
     "stylelint-prettier": "^2.0.0"
   },
   "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
     "**/*.+(js|jsx|ts|tsx|json|css)": [
       "yarn prettier:check"
     ],
