@@ -50,9 +50,10 @@ router.get('/', (req, res, next) => {
  *            - description
  *          properties:
  *            id:
- *             type: integer
- *             format: int64
- *             generated : true
+ *               type: integer
+ *               format: int64
+ *               generated : true
+ *               access : hidden
  *            name:
  *               type: string
  *            description:
